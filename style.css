@@ -67,7 +67,7 @@ body {
     overflow: visible;
 }
 #navbtn:hover {
-    color: white;
+    color: #8878b0;
     transition: 0.25s ease-in;
 }
 #navbar-btn:hover {
@@ -225,8 +225,16 @@ body {
     #navbar-btn-active {
         border-bottom-color: white;
     }
+    #navbar-btn:hover {
+        color: #a699cc;
+        transition: 0.25s ease-in;
+    }   
+    #navbtn:hover {
+        color: white;
+        transition: 0.25s ease-in;
+    }
     #body {
-        margin-top: -100vh;
+        margin-top: -95vh;
     }
     .platform-overview {
         flex-direction: row;
